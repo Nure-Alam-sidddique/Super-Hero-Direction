@@ -1,0 +1,11 @@
+.body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #f7fcfc;
+}
+.cards {
+  margin-left: 80px;
+}
+.programmer-added {
+  margin-right: 20px;
+}

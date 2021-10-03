@@ -1,0 +1,23 @@
+.card {
+  margin: 10px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-img {
+  height: 200px;
+  width: 200px !important;
+  border-radius: 50% !important;
+}
+.single-img {
+  padding: 10px;
+  margin: 0 auto;
+}
+.card:hover {
+  box-shadow: 2px 3px 7px gray;
+  transition: 0.5s;
+}
+.add-btn {
+  margin-bottom: 20px;
+}
